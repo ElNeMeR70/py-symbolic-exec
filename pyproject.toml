@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "py-symbolic-exec"
+version = "1.0.0"
+description = "Symbolic execution engine with Z3 path constraints"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Mahmoud ElNemer", email = "sultanelnemer@gmail.com"}]
+keywords = ["python", "symbolic-execution", "z3", "security", "verification"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ElNeMeR70/py-symbolic-exec"
+Repository = "https://github.com/ElNeMeR70/py-symbolic-exec"
